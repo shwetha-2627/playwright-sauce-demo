@@ -1,0 +1,12 @@
+{
+  "name": "playwright-sauce-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.45.0",
+    "typescript": "^5.0.0"
+  }
+}
